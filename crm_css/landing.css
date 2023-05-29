@@ -1,0 +1,273 @@
+nav.container {
+    padding: 0;
+}
+
+nav .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#nav-menu {
+    height: 100%;
+}
+
+nav img {
+    max-width: 50%;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: #0850F8;
+}
+
+#nav_button1 {
+    border-radius: 10px;
+    border-color: #0850F8;
+    color: #0850F8;
+}
+
+#nav_button2 {
+    border-radius: 10px;
+    border-color: #0850F8;
+    color: white;
+    background-color: #0850F8;
+}
+
+/* End of navbar CSS */
+
+#under-nav {
+    margin: 60px 0 0 0;
+}
+
+#focus {
+    height: 100%;
+}
+
+.space-it {
+    padding: 23px 10px 0 10px;
+}
+
+#un-button1 {
+    background-color: #0850F8;
+    border-radius: 10px;   
+    border-color: #0850F8;
+    color: white;
+    height: 50px;
+}
+
+#un-button2 {   
+    background-color: white;
+    color: blue;
+    border-color: #0850F8;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.fa-arrow-right {
+    padding: 0 0 0 5px;
+}
+
+.fa-rocketchat {
+    padding: 0 5px 0 0;
+}
+
+.circle {
+    background-color: #0850F8;
+    height: 10px;   
+    width: 10px;
+    display: inline-block;
+    border-radius: 100%;
+    margin: 0 10px 0 10px;
+}
+
+#folders {
+    width: 100%;
+    height: 85%;
+    padding-left: auto;
+}
+
+/* End of 1st section CSS */
+
+#top-line {
+    color: black;
+    margin-bottom: 100px;
+}
+
+/* End of horizontal line CSS */
+
+.explore p {
+    margin: 25px 0 60px 0;
+}
+
+.double-pics {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.pics-d {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    border: black solid 1px;
+    border-radius: 10px;
+    height: 120px;
+    width: 120px;
+}
+
+.pics-d i {
+    font-size: 50px;
+    padding-bottom: 18px;
+}
+
+/* End of Start to Explore Double Tap CSS */
+
+.credit-card {
+    border-radius: 10px;
+    margin-top: 80px;
+}
+
+.accept-payment {
+    background-color: #0850F8;
+    color: white;
+    padding: 150px 0 150px 50px;
+    border: solid #0850F8 2px;
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.accept-payment h1{
+    padding-bottom: 20px;
+}
+
+.accept-payment h3 {
+    padding-bottom: 20px;
+}
+
+#accept-button {
+    border: solid white 2px;
+    border-radius: 10px;
+    color: white;
+    background-color: #0850F8;
+    width: 30vw;
+    height: 50px;
+    margin-top: 20px;
+    padding: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;  
+}
+
+.credit-man {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: black solid 1px;
+    border-radius: 10px 0 0 10px;
+}
+
+/* End of Accepting Payments with Ease */
+
+#solutions {
+    text-align: center;
+    margin: 130px auto 70px auto;
+}
+
+.space-text {
+    padding: 0 0 20px 0;
+}
+
+.circle-test {
+    height: 130px;
+    width: 130px;
+    background-color: rgb(165, 214, 245);
+    display: inline-block;
+    border-radius: 100%;
+    margin-bottom: 20px;
+    border: solid grey 1px;
+    position: relative;
+}
+
+.center-image {
+    padding-top: 40px;
+    font-size: 50px;
+}
+
+.solutions-second-row {
+    margin-top: 70px;
+}
+
+.solutions-button {
+    margin-bottom: 100px;
+    background-color: white;
+}
+
+.solutions-button i {
+    padding-left: 40px;
+}
+
+.solutions-button button{
+    padding-left:  50px;
+    height: 40px;
+    border-radius: 10px;
+    border: grey solid 3px;
+}
+
+/* End of Solutions to fit your business needs */
+
+footer {
+    background-color: #0850F8;
+    color: white;
+    height: 400px;
+    text-align: center;
+    padding: 30px 0 0 0;
+}
+
+footer h5 {
+    margin-top: 20px;
+}
+
+.foot-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.foot-button {
+    margin: 20px 20px 10px 20px;
+    border-radius: 10px;
+}
+
+#foot-circle {
+    background-color: white;
+    margin-top: 0;
+}
+
+#foot1 {
+    background-color: rgb(66, 255, 66);
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    padding: 0 50px 0 50px;
+    border-color: rgb(66, 255, 66);
+}
+
+#foot2 {
+    height: 50px;
+    padding: 0 35px 0 35px;
+    font-weight: bold;
+    color: #0850F8;
+    border-color: white;
+}
+
+
