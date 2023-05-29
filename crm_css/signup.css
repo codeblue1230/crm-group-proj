@@ -1,0 +1,85 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left-pg{
+    margin-top: 10%;
+}
+
+.enter{
+    text-align: center;
+}
+
+.username{
+    position: relative;
+}
+
+.username i{
+    position: absolute;
+    top: 50%;
+    left:10px;
+    transform: translateY(-50%);
+}
+
+.username input{
+    padding-left: 25px;
+}
+
+.email{
+    position: relative;
+}
+
+.email i{
+    position: absolute;
+    top: 50%;
+    left:10px;
+    transform: translateY(-50%);
+}
+
+.email input{
+    padding-left: 25px;
+}
+
+.password{
+    position: relative;
+}
+
+.password i{
+    position: absolute;
+    top: 50%;
+    left:10px;
+    transform: translateY(-50%);
+}
+
+.password input{
+    padding-left: 25px;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+p{
+    font-size: 30px;
+}
+
+.class-test {
+    background: white;
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    line-height: 100px;
+    padding: 40px;
+}
+
+.img{
+    background-attachment: fixed;
+}

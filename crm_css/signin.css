@@ -1,0 +1,109 @@
+.sign-up a{
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.left-pg{
+    background-image: url("../images/signup.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: 750px;
+    flex-grow: 1;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.right-pg{
+    margin-right: 1%;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 1%;
+    position: static;
+}
+
+.enter{
+    text-align: center;
+}
+
+.username{
+    position: relative;
+}
+
+.username i{
+    position: absolute;
+    top: 50%;
+    left:10px;
+    transform: translateY(-50%);
+}
+
+.username input{
+    padding-left: 25px;
+}
+
+.email{
+    position: relative;
+}
+
+.email i{
+    position: absolute;
+    top: 50%;
+    left:10px;
+    transform: translateY(-50%);
+}
+
+.email input{
+    padding-left: 25px;
+}
+
+.password{
+    position: relative;
+}
+
+.password i{
+    position: absolute;
+    top: 50%;
+    left:10px;
+    transform: translateY(-50%);
+}
+
+.password input{
+    padding-left: 25px;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#username, #password, #email{
+    min-height: 60px
+} 
+
+.fb{
+    font-size: 30px;
+    display: inline-block;
+    padding: 20px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.class-test {
+    background: white;
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    line-height: 50px;
+    padding: 40px;
+}
