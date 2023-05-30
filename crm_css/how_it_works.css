@@ -1,0 +1,345 @@
+html {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+    text-align: center;
+}
+
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.item a {
+    color: black;
+}
+
+.navbut1 button {
+    background-color: white;
+    border: 2px solid rgb(7, 80, 248);
+    border-radius: 10px;
+    color:rgb(7, 80, 248);
+    padding: 5px;
+    width: 80px;
+    cursor: pointer;
+    
+}
+
+.navbut1 a {
+    color: rgb(7, 80, 248)
+}
+
+.navbut2 button {
+    background-color: rgb(7, 80, 248);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 5px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.navbut2 a {
+    color: white;
+}
+
+
+.bigcontainer1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: center;
+}
+
+.content1 {
+    margin-bottom: 50px;
+}
+
+.info1 {
+    font-size: 12pt;
+    color: rgb(154, 154, 154);
+}
+
+.sufbut {
+    background-color: rgb(7, 80, 248);
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    border: none;
+    width: 150px;
+    text-align: center;
+    height: 45px;
+    cursor: pointer;
+}
+
+.sufbut a {
+    color: white;
+    text-decoration: none;
+}
+
+.chat {
+    background-color: white;
+    border: 2px solid rgb(7, 80, 248);
+    border-radius: 8px;
+    color: rgb(7, 80, 248);
+    height: 45px;
+    margin-left: 28px;
+    width: 150px;
+}
+
+.chat a {
+    color: rgb(7, 80, 248);
+    text-decoration: none;
+}
+
+.info2 {
+    font-size: 12pt;
+    color: rgb(154, 154, 154);
+}
+
+.info2 a {
+    text-decoration: none;
+    color: rgb(154, 154, 154);
+}
+
+.smalltext {
+    font-size: 8pt;
+}
+
+.dot {
+    background-color: rgb(7, 80, 248);
+    color: rgb(7, 80, 248);
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0px 10px 0px;
+}
+
+.content-image {
+    width: 300px;
+    height: 300px;
+    }
+
+.container1img {
+    margin-left: 30px;
+}
+
+.hrstyled {
+    width: 55%;
+}
+
+.hiwcontent1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12pt;
+    margin: 20px 20px;
+    padding: 30px;
+}
+
+.bigcontainer2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} 
+
+.leftcontent {
+    width: 300px;
+    height: 300px;
+}
+
+.rightcontent {
+    color: white;
+    background-color: rgb(7, 80, 248);
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 40px;
+}
+
+.hiwcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12pt;
+    margin: 20px 20px;
+    padding: 30px;
+}
+
+.bigcontainer3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.rightside {
+    background-color: rgb(7, 80, 248);
+    border: 5px solid white;
+    padding: 40px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.atthebottom {
+    background-color: rgb(7, 80, 248);
+    height: 200px;
+    padding-top: 15px;
+    margin: 0px -50px -50px;
+    border: 10px solid rgb(7, 80, 248)
+}
+
+.foottop {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24pt;
+}
+
+.started {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 5px;
+}
+
+.gstarted{
+    background-color: rgba(127, 209, 36, 1);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 140px;
+    height: 35px;
+    text-align:center;
+    margin-right: 25px;
+}
+
+.gstarted a {
+    text-decoration: none;
+    color: white;
+}
+
+.chatfooter {
+    background-color: white;
+    border: 2px solid rgb(7, 80, 248);
+    border-radius: 8px;
+    color: rgb(7, 80, 248);
+    height: 40px;
+    width: 150px;
+    margin-left: 25px;
+}
+
+.chatfooter a {
+    text-decoration: none;
+    color: rgb(7, 80, 248)
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 8pt;
+}
+
+.dot2 {
+    background-color: white;
+    color: white;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0px 10px 0px;
+}
+
+@media only screen and (min-width: 768px) {
+    .menu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .item {
+        padding-top: 22px;
+    }
+
+    .navbut1 , .navbut2 {
+        padding-top: 20px;
+    }
+
+    .content-image {
+        width: 550px;
+        height: 600px;
+    }
+
+    .content1 h1 {
+        font-size: 40pt;
+    }
+
+    .content1 p1 {
+        font-size: 24pt;
+    }
+
+    .navbut1 {
+        margin-left: 240px;
+    }
+
+    .hiwcontent1 {
+        margin: 40px 450px 100px;
+    }
+
+    .hiwcontent {
+        margin: 40px 450px 100px;
+    }
+
+    .bigcontainer2 {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 60%;
+        height: 35%;
+        margin: auto;
+        padding: 40px;
+    }
+
+    .leftcontent {
+        height: 400px;
+        width: 400px;
+    }
+
+    .bigcontainer1 {
+        flex-wrap: nowrap;
+        margin-top: 40px;
+    }
+
+    .bigcontainer3 { 
+        flex-wrap: nowrap;
+        width: 60%;
+        height: 30%;
+        margin: auto;
+        align-self: center;
+        padding: 40px;
+    }
+    .pic3 {
+        height: 400px;
+        width: 400px;
+    }
+    .atthebottom {
+        margin-top: 40px;
+    }
+}

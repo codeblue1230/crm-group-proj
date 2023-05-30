@@ -270,4 +270,25 @@ footer h5 {
     border-color: white;
 }
 
+.space-it a {
+    text-decoration: none;
+    color: white;
+}
 
+
+.button1 a {
+    color: #0850f8;
+}
+
+.button2 a {
+    color: white;
+}
+
+.space-it strong {
+    color: black;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
